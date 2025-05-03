@@ -1,0 +1,105 @@
+/* ヘッダー */
+
+html {
+    background-color: azure;
+}
+
+header {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.container {
+    
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.pop {
+    font-family: 'Poppins', sans-serif;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+header img  {
+    padding-top: 10px;
+    width: 100%;
+    height: 400px;
+}
+
+/* メイン */
+
+.INDEX {
+    background-color: #fff;
+    margin-bottom: 60px;
+    padding: 30px 0;
+}
+
+.title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.INDEX ol {
+    max-width: 600px;
+    margin-left: 30px;
+
+}
+
+.inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* DETAIL */
+
+#detail {
+    margin-bottom: 100px;
+}
+
+#detail .section-title {
+    margin-bottom: 30px;
+}
+
+
+
+.column50 .title {
+    margin-bottom: 50px;
+}
+
+.column50 dl {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 16px 0;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+.column50 dd {
+    width: 75%;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#detail img {
+    width: 270px;
+    margin-right: 60px;
+}
+
+#detail dl dt {
+    width: 25%;
+}
+
+#detail p {
+    margin-bottom: 50px;
+}
+
+
